@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Story</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/Style2.css">
+</head>
+
+<body>
+	<header>
+
+		<div class="logoBox">
+			<h1 class="siteName">Gaming Experia</h1>
+		</div>
+
+		<div class="topnav" id="myTopnav">
+			<a href="ShadowOfTheTombRaider.html" class="active">Home</a>
+			<a href="BatmanArkhamKnight.html">Batman</a>
+			<a href="HorizonZeroDawn.html">Horizon</a>
+			<a href="FarCry5.html">Far Cry 5</a>
+			<a href="Project.html">Contact Us</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</header>
+
+	<main>
+		<section id="heroS">
+			<div class="heroContent">
+				<h1>Batman<br><span>Arkham Knight</span></h1>
+				<p>Batman: Arkham Knight is a 2015 action-adventure game developed by Rocksteady Studios and published by Warner Bros. Interactive Entertainment. Scarecrow, with the help of the mysterious Arkham Knight, plots to unite Batman's greatest foes in an attempt to finally destroy Batman.</p>
+				<a type="button" href="">Download <i class="fa fa-download"></i></a>
+			</div>
+			<div class="heroVideo">
+				<video width="385" controls>
+  				<source src="Vid2.mp4" type="video/mp4">
+  				</video>
+			</div>
+		</section>
+	</main>
+
+
+
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url('../img/HorizonZ.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#heroS .heroContent h1 span{
+	color: #242423;
+}
